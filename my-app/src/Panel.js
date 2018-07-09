@@ -48,13 +48,13 @@ export default class Panel extends Component {
   	<div>
     <div style={stylepanel.style}>
     <Route exact path="/subpage" component={Alselection} />
-          <Route exact path="/subpage/App2" component={DensityPanel} />
-          <Route exact path="/subpage/App" component={MobilityPanel} />
+          <Route exact path="/subpage/App" component={DensityPanel} />
+          <Route exact path="/subpage/App2" component={MobilityPanel} />
     </div>
     <div style={stylemap.style}>
           <Route exact path="/subpage" component={Root3} />
-          <Route exact path="/subpage/App2" component={Root2} />
-          <Route exact path="/subpage/App" component={Root} />
+          <Route exact path="/subpage/App" component={Root2} />
+          <Route exact path="/subpage/App2" component={Root} />
 	</div>
 	</div>
   )

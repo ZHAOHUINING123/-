@@ -10,13 +10,11 @@ export default class Subpage extends Component {
  render() {
   return (
    <div className="page">
-    <ComponentHeader />
+   	<ComponentHeader />
     <BorderLine />
-    
-    
- <BrowserRouter>
-   <Panel />
- </BrowserRouter>
+ 	<BrowserRouter>
+    	<Panel />
+ 	</BrowserRouter>
    </div>
   )
  }

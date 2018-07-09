@@ -21,8 +21,8 @@ export default class Alselection extends Component {
 	    }
   return (
   	<div>
-    <Link to="/subpage/App2">Mobility</Link>
-    <Link to="/subpage/App">Population density</Link>
+    <Link to="/subpage/App2">Population density</Link>
+    <Link to="/subpage/App">Mobility</Link>
     <Route exact path="/subpage/App2" component={MobilityPanel} />
     <Route exact path="/subpage/App" component={DensityPanel } />
 	</div>
