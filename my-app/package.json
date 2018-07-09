@@ -1,0 +1,38 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "amazeui-react": "^1.2.3",
+    "antd": "^3.6.5",
+    "babel": "^6.23.0",
+    "css-loader": "^0.28.11",
+    "d3": "^5.5.0",
+    "d3-request": "^1.0.6",
+    "deck.gl": "^5.3.2",
+    "mapbox-gl": "^0.46.0",
+    "mongodb": "^3.1.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-icons": "^2.2.7",
+    "react-map-gl": "^3.3.0",
+    "react-mapbox-gl": "^3.8.0",
+    "react-mixin": "^2.0.2",
+    "react-modal": "^3.4.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "style-loader": "^0.21.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-angular": "^3.3.0"
+  }
+}
